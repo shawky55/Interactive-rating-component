@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { ReactComponent as Logo } from '../images/icon-star.svg';
-import Backside from './Backside';
-import Button from './Button';
-import SubmitButton from './SubmitButton';
+import Backside from '../Backside/Backside';
+import Button from '../RatingButton/Button';
+import SubmitButton from '../SubmitButton/SubmitButton';
 import classes from './Card.module.css';
 
 const Card = (props) => {
